@@ -1,11 +1,15 @@
 package com.techelevator;
 
+<<<<<<< HEAD
 public class Application {
 
     /**
      * The main entry point in the application
      * @param args
      */
+=======
+
+
 
     private void run() {
         // create some departments
