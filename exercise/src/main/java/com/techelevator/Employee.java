@@ -7,14 +7,16 @@ public class Employee {
     private String lastName;
     private String email;
     private double salary;
-    private department	Department;
+    private String Department;
     private String hireDate;
 
 }
 
-Constructors
+//Constructors
 
-public Employee(String Employee: employeeID, firstName, lastName, email, department,hireDate) {
+public Employee (long employeeId, String firstName, String lastName, String email, String department, String hireDate) {
+
+}
 
 
 }

@@ -1,3 +1,5 @@
+package com.techelevator;
+
 public class Project {
 
     private String name;
