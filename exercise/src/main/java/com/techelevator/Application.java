@@ -1,5 +1,8 @@
 package com.techelevator;
 
+import javax.print.attribute.standard.MediaSize;
+import java.util.List;
+
 public class Application {
 
     /**
@@ -7,6 +10,12 @@ public class Application {
      * @param args
      */
 
+ public class departments {
+        List<Department>
+    }
+    public void printDepartments(String Marketing, String Sales, String Engineering) {
+        System.out.print();
+    }
 
 
     private void run() {

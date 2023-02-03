@@ -97,7 +97,7 @@ public class Employee {
     }
 
     public void raiseSalary (double percent) {
-        this.salary = (salary * (percent) / 100) + salary));
+        this.salary = (salary * (percent) / 100) + salary;
     }
 
 }
