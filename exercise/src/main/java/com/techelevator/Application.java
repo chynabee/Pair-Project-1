@@ -1,6 +1,7 @@
 package com.techelevator;
 
-import java.util.ArrayList;
+
+import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,7 +12,17 @@ public class Application {
      * @param args
      */
 
+
     Map<String, Integer> department = new HashMap<>();
+
+ public class departments {
+        List<Department>
+    }
+    public void printDepartments(String Marketing, String Sales, String Engineering) {
+        System.out.print();
+    }
+
+
 
     private void run() {
         // create some departments

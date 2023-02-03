@@ -5,6 +5,7 @@ public class Department {
 
         private int departmentId;
         private String name;
+        private String List<Department>;
 
         //Constructor
         public Department(int departmentId, String name) {
