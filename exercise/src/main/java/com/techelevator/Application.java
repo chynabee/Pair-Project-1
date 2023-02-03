@@ -1,5 +1,9 @@
 package com.techelevator;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
 public class Application {
 
     /**
@@ -7,17 +11,23 @@ public class Application {
      * @param args
      */
 
-
+    Map<String, Integer> department = new HashMap<>();
 
     private void run() {
         // create some departments
         createDepartments();
+        department.put ("Marketing", 1);
+        department.put ("Sales", 2);
+        department.put ("Engineering", 3);
+
 
         // print each department by name
         printDepartments();
 
+
         // create employees
         createEmployees();
+
 
         // give Angie a 10% raise, she is doing a great job!
 

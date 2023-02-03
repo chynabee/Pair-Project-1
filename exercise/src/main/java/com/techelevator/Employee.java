@@ -96,8 +96,10 @@ public class Employee {
         this.getFullName();
     }
 
-    public void raiseSalary (double percent) {
+    public void raiseSalary(double percent) {
         this.salary = (salary * (percent) / 100) + salary));
-    }
 
+    }
 }
+
+
