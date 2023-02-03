@@ -1,7 +1,7 @@
 package com.techelevator;
 
 public class Employee {
-public class Employee {
+
     private long employeeId;
     private String firstName;
     private String lastName;
@@ -10,7 +10,7 @@ public class Employee {
     private String Department;
     private String hireDate;
 
-}
+
 
 //Constructors
 

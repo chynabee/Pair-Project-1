@@ -2,7 +2,6 @@ package com.techelevator;
 
 public class Department {
 
-    public class Department {
 
         private int departmentId;
         private String name;
@@ -35,4 +34,4 @@ public class Department {
 
     }
 
-}
+
