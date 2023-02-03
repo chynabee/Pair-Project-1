@@ -23,7 +23,7 @@ public class Application {
 
         // create the TEams project
         createTeamsProject();
-        // create the Marketing Landing Page Project
+        // create the Marketing Landing Page com.techelevator.Project
         createLandingPageProject();
 
         // print each project name and the total number of employees on the project

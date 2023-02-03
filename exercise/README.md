@@ -1,4 +1,4 @@
-# Week 2 review - TEams (Project Management Software)
+# Week 2 review - TEams (com.techelevator.Project Management Software)
 
 You’ve been tasked with building an internal project management system for teams to track their projects. You don’t need to build a UI for this application. Your job is to build the foundational classes that drive the application’s features.
 
@@ -60,9 +60,9 @@ The second constructor is a no-argument constructor. This constructor allows you
 | `getFullName()`| A derived property that returns the employee's full name in the following format: "Last, First"|
 | `raiseSalary(double percent)` | A method that raises the employee's salary by x percent |
 
-### Step Three: Create the `Project` class
+### Step Three: Create the `com.techelevator.Project` class
 
-Create a new class called `Project.java` with the following requirements.
+Create a new class called `com.techelevator.Project.java` with the following requirements.
 
 #### Instance variables
 
@@ -78,7 +78,7 @@ Create a new class called `Project.java` with the following requirements.
 
 #### Constructors
 
-`Project` must have one constructor that accepts four parameters: `name`, `description`, `startDate` and `dueDate`.
+`com.techelevator.Project` must have one constructor that accepts four parameters: `name`, `description`, `startDate` and `dueDate`.
 
 ## Application
 
@@ -138,12 +138,12 @@ Thompson, Margaret (60000.0) Marketing
 
 ### Step Three: Create and print projects
 
-Create an instance variable in the `Application` class called `projects` to hold a collection of projects. The variable must be of type `Map<String,Project>` where the key is the name of the project.
+Create an instance variable in the `Application` class called `projects` to hold a collection of projects. The variable must be of type `Map<String,com.techelevator.Project>` where the key is the name of the project.
 
 In `createTeamsProject()`, create the following project:
 
 - name: TEams
-- description: Project Management Software
+- description: com.techelevator.Project Management Software
 - startDate: 10/10/2020
 - dueDate: 11/10/2020
 
@@ -216,17 +216,17 @@ Thompson, Margaret ($60,000.00) Marketing
 
 ### Dates
 
-In the `Project` and `Employee` classes, you used the type `String` for the dates. In a real-world application, if you needed to perform calculations on dates, you wouldn't use a `String`.
+In the `com.techelevator.Project` and `Employee` classes, you used the type `String` for the dates. In a real-world application, if you needed to perform calculations on dates, you wouldn't use a `String`.
 
 In the Java Standard Library, there's a class called [LocalDate](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html) that you can use with dates.
 
-#### Project
+#### com.techelevator.Project
 
 Right now, you create a new project by hard-coding a start date. You can use the `LocalDate` API to get today's date and set that as the start date instead.
 
 There's also a way to set the end date to `x` amount of days after the start date. Update both `startDate` and `dueDate` to type `LocalDate` using the following requirements:
 
-- Project TEams
+- com.techelevator.Project TEams
     - start date: today
     - due date 30 days after today
 - Marketing Landing Page
