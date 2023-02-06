@@ -80,6 +80,10 @@ public class Application {
      */
     private void printEmployees() {
         System.out.println("\n------------- EMPLOYEES ------------------------------");
+        // Dean Johnson
+        //Angie Smith
+        //Margaret Thompson
+        // Is this right does this go here? Or somewhere above?
 
     }
 

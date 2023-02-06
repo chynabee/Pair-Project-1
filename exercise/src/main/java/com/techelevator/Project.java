@@ -9,7 +9,7 @@ public class Project {
     private String description;
     private String startDate;
     private String dueDate;
-    private List<Employee> teamMembers;
+    private List<Employee> teamMembers; // is this correct?
 
 
     //Constructors
